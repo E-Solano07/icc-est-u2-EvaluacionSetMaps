@@ -69,7 +69,6 @@ public class PersonaController {
             String primerNombre = partes[0];
 
             if (!control.get(grupo).contains(primerNombre.toLowerCase())) {
-                control.get(grupo).add(primerNombre);
                 control.get(grupo).add(primerNombre.toLowerCase());
 
             }
